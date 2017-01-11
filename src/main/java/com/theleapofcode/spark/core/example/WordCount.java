@@ -10,8 +10,8 @@ import org.apache.spark.api.java.JavaSparkContext;
 public class WordCount {
 
 	// $SPARK_HOME/bin/spark-submit --class
-	// com.theleapofcode.playground.spark.core.samples.WordCount
-	// ./target/spark-1.0.jar ./target/classes/README.md
+	// com.theleapofcode.spark.core.example.WordCount
+	// ./target/spark-core-samples-1.0.jar ./target/classes/README.md
 	public static void main(String[] args) {
 		String fileName = "README.md";
 		SparkConf conf = new SparkConf().setMaster("local").setAppName("WordCount");
