@@ -1,0 +1,251 @@
+14:54:29.029 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Started RPC Server
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.base.service.RelationDefinitionService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.security.service.AccessControlService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountDefinitionService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingDefinitionService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapDefinitionService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationDefinitionService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationService"
+14:54:29.039 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.cache.CacheService"
+14:54:29.042 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.max.clients = 100
+14:54:29.046 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::startup - Cli Server disabled
+14:54:29.071 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "update-db-cache"
+14:54:29.071 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "get-connection-pool-info"
+14:54:29.071 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "security"
+14:54:29.071 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "print-rtree"
+14:54:29.103 [localhost-startStop-1] WARN  com.theleapofcode.myapp.engine.main.PolicyEngine - Policy Engine is not enabled for startup.
+14:54:29.149 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.engine.remote.PolicyEngineService"
+14:54:30.483 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+14:54:31.203 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEdgeEntity]
+14:54:31.357 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifierEntity]
+14:54:31.395 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.VertexEntity]
+14:54:31.424 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.InheritEntity]
+14:54:31.449 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.HasEntity]
+14:54:31.587 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.PrivilegedVertexEntity]
+14:54:31.621 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationEntity]
+14:54:32.106 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationDefinitionEntity]
+14:54:32.198 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapDefinitionEntity]
+14:54:32.296 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationDefinitionEntity]
+14:54:32.380 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingDefinitionEntity]
+14:54:32.380 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeDefinitionEntity]
+14:54:32.508 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountGroupEntity]
+14:54:32.606 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationDefinitionEntity]
+14:54:32.631 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ChildEntity]
+14:54:32.657 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifiedByEntity]
+14:54:32.899 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationEntity]
+14:54:32.993 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapEntity]
+14:54:33.075 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountDefinitionEntity]
+14:54:33.075 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.EdgeEntity]
+14:54:33.075 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeEntity]
+14:54:33.102 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.MemberEntity]
+14:54:33.102 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationEntity]
+14:54:33.129 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AliasEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ContainsEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectDefinitionEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableVertexEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ConstraintEntity]
+14:54:33.170 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectEntity]
+14:54:33.249 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityEntity]
+14:54:34.416 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityDefinitionEntity]
+14:54:34.416 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ElementEntity]
+14:54:34.416 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableVertexEntity]
+14:54:34.749 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingEntity]
+14:54:34.762 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableEdgeEntity]
+14:54:35.096 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountEntity]
+14:54:35.096 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.Entity]
+14:54:35.096 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+14:54:35.225 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - start
+14:54:35.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - end
+14:55:30.974 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Started RPC Server
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.base.service.RelationDefinitionService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.security.service.AccessControlService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountDefinitionService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingDefinitionService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapDefinitionService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationDefinitionService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationService"
+14:55:30.983 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.cache.CacheService"
+14:55:30.987 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.max.clients = 100
+14:55:30.990 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.port = 19867
+14:55:30.990 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::startup - Cli Server started
+14:55:30.991 [Thread-6] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.port = 19867
+14:55:30.991 [Thread-6] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::Server::run - Cli Server running and listening on port : 19867
+14:55:31.012 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "update-db-cache"
+14:55:31.012 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "get-connection-pool-info"
+14:55:31.012 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "security"
+14:55:31.012 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "print-rtree"
+14:55:31.042 [localhost-startStop-1] WARN  com.theleapofcode.myapp.engine.main.PolicyEngine - Policy Engine is not enabled for startup.
+14:55:31.082 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.engine.remote.PolicyEngineService"
+14:55:32.476 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+14:55:32.499 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeEntity]
+14:55:32.499 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.Entity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingEntity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableVertexEntity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifierEntity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.HasEntity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AliasEntity]
+14:55:32.500 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ContainsEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountDefinitionEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.InheritEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapDefinitionEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityDefinitionEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.VertexEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.MemberEntity]
+14:55:32.501 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationDefinitionEntity]
+14:55:32.502 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ElementEntity]
+14:55:32.502 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationEntity]
+14:55:32.502 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ChildEntity]
+14:55:32.502 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationEntity]
+14:55:32.502 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.EdgeEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationDefinitionEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.PrivilegedVertexEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountGroupEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEdgeEntity]
+14:55:32.503 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableEdgeEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableVertexEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationDefinitionEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ConstraintEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectDefinitionEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingDefinitionEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifiedByEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeDefinitionEntity]
+14:55:32.504 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+14:55:32.643 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - start
+14:55:32.662 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - end
+14:56:06.908 [http-bio-8080-exec-4] DEBUG com.theleapofcode.myapp.core.account.service.AccountDefinitionServiceImpl - addAccountDefinition - start
+14:56:07.302 [http-bio-8080-exec-4] DEBUG com.theleapofcode.myapp.core.account.service.AccountDefinitionServiceImpl - addAccountDefinition - end
+14:57:01.037 [http-bio-8080-exec-7] DEBUG com.theleapofcode.myapp.core.account.service.AccountServiceImpl - addAccount - start
+14:57:01.097 [http-bio-8080-exec-7] DEBUG com.theleapofcode.myapp.core.account.service.AccountDefinitionServiceImpl - getAccountDefinitionByName - start
+14:57:01.118 [http-bio-8080-exec-7] DEBUG com.theleapofcode.myapp.core.account.service.AccountDefinitionServiceImpl - getAccountDefinitionByName - end
+14:57:01.133 [http-bio-8080-exec-7] DEBUG com.theleapofcode.myapp.core.account.service.AccountServiceImpl - addAccount - end
+14:57:23.841 [http-bio-8080-exec-10] DEBUG com.theleapofcode.myapp.core.account.service.AccountServiceImpl - setPrivileges - start
+14:57:23.852 [http-bio-8080-exec-10] DEBUG com.theleapofcode.myapp.core.account.service.AccountServiceImpl - setPrivileges - end
+15:03:53.074 [http-bio-8080-exec-13] ERROR com.theleapofcode.myapp.rest.security.JwtAuthenticationAsserter - JwtAuthenticationAsserter::signin - Error while processing JWT token
+java.lang.IllegalArgumentException: Illegal base64 character 2b
+	at java.util.Base64$Decoder.decode0(Base64.java:714) ~[?:1.8.0_51]
+	at java.util.Base64$Decoder.decode(Base64.java:526) ~[?:1.8.0_51]
+	at java.util.Base64$Decoder.decode(Base64.java:549) ~[?:1.8.0_51]
+	at com.theleapofcode.myapp.rest.security.JWTProcessor.getJwtTokenComponents(JWTProcessor.java:162) ~[JWTProcessor.class:?]
+	at com.theleapofcode.myapp.rest.security.JWTProcessor.getJWTClaims(JWTProcessor.java:132) ~[JWTProcessor.class:?]
+	at com.theleapofcode.myapp.rest.security.JWTProcessor.getLoginNameFromJwt(JWTProcessor.java:116) ~[JWTProcessor.class:?]
+	at com.theleapofcode.myapp.rest.security.JwtAuthenticationAsserter.signin(JwtAuthenticationAsserter.java:42) ~[JwtAuthenticationAsserter.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281) ~[spring-tx-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at com.sun.proxy.$Proxy70.signin(Unknown Source) ~[?:?]
+	at com.theleapofcode.myapp.rest.security.SecurityFilter.doFilter(SecurityFilter.java:40) ~[SecurityFilter.class:?]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.3.1.RELEASE.jar:4.3.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) ~[catalina.jar:7.0.54]
+	at com.theleapofcode.myapp.rest.servlet.CorsFilter.doFilter(CorsFilter.java:23) ~[CorsFilter.class:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116) ~[catalina.jar:7.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408) ~[catalina.jar:7.0.54]
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040) ~[tomcat-coyote.jar:7.0.54]
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607) ~[tomcat-coyote.jar:7.0.54]
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:314) ~[tomcat-coyote.jar:7.0.54]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-coyote.jar:7.0.54]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+15:23:35.679 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Started RPC Server
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.base.service.RelationDefinitionService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.security.service.AccessControlService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountDefinitionService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.account.service.AccountService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingDefinitionService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.thing.service.ThingService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapDefinitionService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.map.service.MapService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationDefinitionService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.core.location.service.LocationService"
+15:23:35.690 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.cache.CacheService"
+15:23:35.695 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.max.clients = 100
+15:23:35.699 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.port = 19867
+15:23:35.699 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::startup - Cli Server started
+15:23:35.700 [Thread-6] INFO  com.theleapofcode.myapp.commons.cli.util.CliUtil - Value of myapp.telnet.port = 19867
+15:23:35.700 [Thread-6] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::Server::run - Cli Server running and listening on port : 19867
+15:23:35.724 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "update-db-cache"
+15:23:35.724 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "get-connection-pool-info"
+15:23:35.724 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "security"
+15:23:35.724 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.cli.server.CliServer - CliServer::registerCommandHandler - Registering command handler for command "print-rtree"
+15:23:35.758 [localhost-startStop-1] WARN  com.theleapofcode.myapp.engine.main.PolicyEngine - Policy Engine is not enabled for startup.
+15:23:35.804 [localhost-startStop-1] INFO  com.theleapofcode.myapp.commons.rpc.RpcServer - Registering a new service of type "interface com.theleapofcode.myapp.engine.remote.PolicyEngineService"
+15:23:37.218 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+15:23:37.240 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.VertexEntity]
+15:23:37.240 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityDefinitionEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountDefinitionEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.InheritEntity]
+15:23:37.241 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEdgeEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableVertexEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.Entity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.RelationDefinitionEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationDefinitionEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapDefinitionEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifiedByEntity]
+15:23:37.242 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ConstraintEntity]
+15:23:37.243 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountGroupEntity]
+15:23:37.243 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.location.entity.LocationEntity]
+15:23:37.243 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationDefinitionEntity]
+15:23:37.243 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.map.entity.MapEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AttributeDefinitionEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ProtectableEdgeEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.HasEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.MemberEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ChildEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.PrivilegedVertexEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.EdgeEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.ContainsEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentityEntity]
+15:23:37.244 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.AuditableVertexEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.account.entity.AccountEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.thing.entity.ThingDefinitionEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.IdentifierEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.common.entity.ElementEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AliasEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.myappObjectDefinitionEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - Registered Type for Entity[class com.theleapofcode.myapp.core.base.entity.AbstractRelationEntity]
+15:23:37.245 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.graph.SchemaBuilder - SchemaBuilder :: buildSchemas - start
+15:23:37.375 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - start
+15:23:37.395 [localhost-startStop-1] DEBUG com.theleapofcode.myapp.core.util.location.RtreeBuilder - RtreeBuilder :: initRTree - end
+15:26:55.985 [http-bio-8080-exec-3] DEBUG com.theleapofcode.myapp.core.map.service.MapDefinitionServiceImpl - getMapDefinitionsByCriteria - start
+15:26:56.068 [http-bio-8080-exec-3] DEBUG com.theleapofcode.myapp.core.map.service.MapDefinitionServiceImpl - getMapDefinitionsByCriteria - end
